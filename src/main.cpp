@@ -6,8 +6,7 @@ using namespace geode::prelude;
 
 class CodeLayer : public FLAlertLayer
 {
-
-	public:
+public:
 
 	static CodeLayer* create(){
 		auto ret = new CodeLayer;
