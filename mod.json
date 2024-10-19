@@ -1,0 +1,19 @@
+{
+	"geode": "3.8.1",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "ninsam.all_vault_codes",
+	"name": "All Vault Codes",
+	"version": "v1.0.0",
+	"developer": "NinSam",
+	"description": "",
+	"resources": {
+        "sprites": [
+			"resources/*.png"
+        ]
+    }
+}
