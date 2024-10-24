@@ -158,7 +158,7 @@ class $modify(MySecretLayer4, SecretLayer4) {
 		if (!SecretLayer4::init()) 
 			return false;
 	
-		  auto winSize = CCDirector::sharedDirector()->getWinSize();
+		auto winSize = CCDirector::sharedDirector()->getWinSize();
 
 		log::debug("Hello from mySecretLayer4::init hook! This layer has {} children.", this->getChildrenCount());
 
